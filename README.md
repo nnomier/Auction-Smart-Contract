@@ -47,12 +47,14 @@ Each participant receives his bid back.
 The manager receives the second highest bid as the price for the record.
 
 The deposits paid by cheaters are transferred to the manager.
+
+
 **Finalize by a participant:**
 
 This function is called when the finalization time is over and the manager didn’t end the auction.
 
 This function can only be called by one participant.
 
-The person who called the function gets half of the manager’s deposit**.**
+The person who called the function gets half of the manager’s deposit.
 
 A ratio of the deposits paid by cheaters are transferred to each participant.
